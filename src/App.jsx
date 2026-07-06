@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Head from "./header";
-import PageContent from "./content";
+import Head from "./Header";
+import PageContent from "./Content";
 import "./App.css";
 
 function App() {
