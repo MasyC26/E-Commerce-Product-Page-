@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/responsive-e-commerce-product-page-build-with-react-vhOMmLvAc8)
+- Live Site URL: [Live Site](https://e-commerce-product-page-gu33glc05-masy-cedric-s-projects.vercel.app/)
 
 ## My process
 
