@@ -13,7 +13,7 @@ function Head({ cartItems, totalCount, removeFromCart }) {
     return (
         <header>
             <div className="logo-nav">
-                <button className="hamburger" onClick={() => setIsOpen(true)} aria-label="Open menu">
+                <button className="hamburger" onClick={() => { setIsOpen(true); setIsCartOpen(false); }} aria-label="Open menu">
                     <img src={icon_menu} />
                 </button>
                 <img src={logo} />
@@ -34,7 +34,7 @@ function Head({ cartItems, totalCount, removeFromCart }) {
 
             <div className="cart-avatar">
                 <div className="cart-wrapper">
-                    <button className="cart-button" onClick={() => setIsCartOpen(!isCartOpen)} aria-label="Open cart">
+                    <button className="cart-button" onClick={() => { setIsCartOpen(!isCartOpen); setIsOpen(false); }} aria-label="Open cart">
                         <img className="cart" src={icon_cart} />
                         {totalCount > 0 && <span className="cart-badge">{totalCount}</span>}
                     </button>

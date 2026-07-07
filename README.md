@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution](https://www.frontendmentor.io/solutions/responsive-e-commerce-product-page-build-with-react-vhOMmLvAc8)
-- Live Site URL: [Live Site](https://e-commerce-product-page-gu33glc05-masy-cedric-s-projects.vercel.app/)
+- Live Site URL: [Live Site](https://e-commerce-product-page-tan-sigma.vercel.app/)
 
 ## My process
 

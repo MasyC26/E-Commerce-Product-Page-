@@ -139,11 +139,12 @@ header div.cart-avatar span.cart-badge {
 }
 
 header div.cart-avatar div.cart-dropdown {
-    position: absolute;
-    top: 55px;
-    right: 0;
-    width: 320px;
-    max-width: 90vw;
+    position: fixed;
+    top: 85px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100vw - 2rem);
+    max-width: 360px;
     background-color: var(--white);
     border-radius: 10px;
     box-shadow: 0 15px 30px hsla(0, 0%, 0%, 0.2);
@@ -415,6 +416,14 @@ button.cart img {
         width: 100%;
         height: 4px;
         background-color: var(--orange);
+    }
+
+    header div.cart-avatar div.cart-dropdown {
+        top: 55px;
+        right: 0;               
+        left: auto;             
+        transform: none;        
+        width: 320px;           
     }
 
     header div.cart-avatar {
